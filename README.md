@@ -73,7 +73,6 @@
 |---------|-------------|------------|--------|
 | **[NextRole - AI Career Copilot](https://github.com/Priyank032/ai-career-copilot)** | 7-agent AI system for conversational job search with SSE streaming and NLP-powered semantic search | FastAPI, Next.js, Groq LLaMA 3.3, LangChain, Supabase | 🚧 In Progress |
 | **ESG Analytics Chatbot** | RAG-based intelligent assistant achieving 95%+ accuracy in natural language to MongoDB queries | Node.js, LangChain, Groq, MongoDB, RAG | ✅ Production |
-| **[Speedbox - Serverless Logistics](link)** | Microservices-based platform with 99.9% uptime handling 10K+ concurrent requests | AWS Lambda, Cognito, PostgreSQL, Serverless | ✅ Deployed |
 | **Money Changer** | NestJS backend for currency exchange with automated testing and API documentation | NestJS, PostgreSQL, TypeScript, Jest, Swagger | ✅ Complete |
 
 </div>
