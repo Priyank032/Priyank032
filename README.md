@@ -1,203 +1,160 @@
-# Hi there, I'm Priyank Agrawal 👋
+<h1 align="center">Priyank Agrawal</h1>
 
-<div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Software+Developer+(AI%2FLLM);Multi-Agent+Systems+Architect;LangChain+%7C+Groq+%7C+RAG+Specialist;Building+Intelligent+Systems)](https://git.io/typing-svg)
+<p align="center">
+  <b>AI / LLM Engineer</b> · Production multi-agent systems, RAG, and agentic workflows
+</p>
 
-</div>
-
----
-
-## 💫 About Me
-
-🔭 **Currently working on**
-- **NextRole** - 7-agent AI career copilot with LangChain & Groq LLaMA 3.3
-- **ESG Analytics Chatbot** - RAG-based assistant with 95%+ accuracy
-- Production multi-agent systems at Planet Sustech
-
-👥 **Looking to collaborate on**
-- Open-source LLM projects & agentic AI frameworks
-- Multi-agent orchestration platforms
-- RAG implementations & prompt engineering
-
-🌱 **Currently learning**
-- LangGraph for advanced agent orchestration
-- Fine-tuning LLMs & RLHF techniques
-- Vector databases (Pinecone, Weaviate, Qdrant)
-
-💬 **Ask me about**
-- Building production RAG systems with LangChain
-- Multi-agent architectures & intent routing
-- MongoDB optimization (50% performance gains)
-- Real-time systems with Socket.IO & Redis
-- AWS serverless architecture
-
-⚡ **Fun fact**
-When I'm not teaching machines to think, I'm probably optimizing MongoDB queries or debugging WebSocket connections at 2 AM 🌙💻
+<p align="center">
+  <a href="https://www.linkedin.com/in/priyank-aggrawal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.priyankagrawal.in"><img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="mailto:priyankagrawal76660@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://dev.to/priyank_agrawal"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=flat-square&logo=devdotto&logoColor=white" alt="Dev.to"></a>
+</p>
 
 ---
 
-## 🌐 Connect With Me
+## Overview
 
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyank-aggrawal/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyankagrawal76660@gmail.com)
-[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/priyank_agrawal)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://www.priyankagrawal.in)
+I'm an AI/LLM engineer with **3+ years** shipping production systems, currently building agentic AI at **Planet Sustech**. My work centers on **multi-agent orchestration, typed tool-calling, and RAG** — the unglamorous engineering that makes LLMs behave like reliable systems rather than demos.
 
-</div>
+I care about the parts that decide whether an agent survives contact with production: deterministic tool boundaries, server-derived analytics that kill hallucination, structured extraction from messy real-world inputs, and orchestration that degrades gracefully. Most of my recent systems run on **LangGraph** and **AWS Bedrock**, backed by NestJS/FastAPI services and Postgres/MongoDB.
 
 ---
 
-## 🚀 Featured Projects
+## Production Agentic Systems
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **[NextRole](https://github.com/Priyank032/ai-career-copilot)** | 7-agent AI system for conversational job search with SSE streaming | `FastAPI` `Next.js` `LangChain` `Groq` |
-| **ESG Analytics Chatbot** | RAG-based assistant achieving 95%+ accuracy in NL to MongoDB queries | `Node.js` `LangChain` `MongoDB` `RAG` |
-| **Speedbox** | Serverless logistics platform with 99.9% uptime | `AWS Lambda` `PostgreSQL` `Serverless` |
+Systems I've designed and shipped at **Planet Sustech** — ESG/climate domain, real users, real data.
 
----
+### KarbonIQ — Conversational ESG Agent
+A supervisor-routed agent (**AWS Bedrock · LangGraph**) exposing **21 typed tool-calling functions** for natural-language ESG querying. Instead of NL-to-query generation, every answer flows through **server-derived analytics**, which eliminates LLM hallucination on numbers. Auto-generates executive dashboards with Excel/PDF export and **RBAC across 4 roles**. Cut manual analysis time by **~70%**.
 
-## 💻 Tech Stack
+### AI Data-Ingestion Agent
+A **vision + OCR** pipeline (Bedrock) that extracts ESG metrics from **8+ document formats** — PDF, Excel, scanned images, email — and auto-calculates **Scope 1/2/3 emissions** at **95% extraction confidence**. Deployed on **AWS ECS Fargate**.
 
-<details>
-<summary><b>🤖 AI/ML & LLMs</b></summary>
-<br>
+### ESG Benchmarking Agent
+Ingests **BRSR/XBRL filings for 987+ listed companies** to produce **SASB-weighted peer scoring**, percentile rankings, gap-to-leader analysis, and 5 AI-generated improvement recommendations per company.
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
-**Specializations:** RAG • Multi-Agent Systems • Prompt Engineering • NLP • Intent Classification
-
-</details>
-
-<details>
-<summary><b>⚙️ Backend & APIs</b></summary>
-<br>
-
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-
-</details>
-
-<details>
-<summary><b>🎨 Frontend</b></summary>
-<br>
-
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-</details>
-
-<details>
-<summary><b>📊 Databases</b></summary>
-<br>
-
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-</details>
-
-<details>
-<summary><b>☁️ Cloud & DevOps</b></summary>
-<br>
-
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-
-</details>
-
-<details>
-<summary><b>🔧 Tools & Others</b></summary>
-<br>
-
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
-![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
-</details>
+### Supplier Due-Diligence Agent
+Scrapes supplier data from public sources, **auto-builds custom assessments** for data gaps, and runs an **autonomous follow-up sub-agent** to chase responses — targeting **~60% faster** supplier onboarding.
 
 ---
 
-## 📊 GitHub Activity
+## How I Architect Agents
 
-<div align="center">
+A representative multi-agent pattern from my work — supervisor routing, specialized agents, a typed tool boundary, and analytics derived on the server rather than by the model.
 
-![](https://github-readme-stats.vercel.app/api?username=Priyank032&theme=radical&hide_border=true&include_all_commits=true&count_private=true&hide=stars)
+```mermaid
+flowchart TD
+    U([Executive / User]) -->|natural language| R{Intent Router}
+    R --> S[Supervisor Agent]
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=Priyank032&theme=radical&hide_border=true)
+    S --> Q[Query Agent]
+    S --> B[Benchmarking Agent]
+    S --> I[Ingestion Agent]
+    S --> D[Due-Diligence Agent]
 
-</div>
+    Q --> T[[Typed Tool-Calling Layer]]
+    T --> DB[(ESG Data Store)]
+    I --> V[Bedrock Vision + OCR]
+    B --> X[BRSR / XBRL Filings]
+    D --> W[Public Web Sources]
 
----
-
-## 💼 Experience Snapshot
-
-**Backend Developer** @ Planet Sustech `Aug 2024 - Present`
-- Built AI chatbot with **LangChain & Groq** achieving **95%+ accuracy**
-- Reduced manual analysis time by **70%** through multi-agent architecture
-- Optimized MongoDB queries for **50%** faster API responses
-
-**Associate Software Developer** @ Antino Labs `Feb 2023 - Aug 2024`
-- Engineered RMS for **400+ employees** with real-time analytics
-- Built social platform with AI matching & WebSocket communication
-- Achieved **85% test coverage** and **40%** bug reduction
-
----
-
-## 🎯 What Drives Me
-
-```javascript
-const priyank = {
-    currentFocus: "Building intelligent AI systems that automate workflows",
-    workingOn: ["NextRole AI Copilot", "ESG Analytics Chatbot"],
-    learning: ["LangGraph", "Vector Databases", "Fine-tuning LLMs"],
-    expertise: ["Multi-Agent Systems", "RAG", "Real-time Architecture"],
-    goal: "Make AI accessible and practical for real-world problems",
-    philosophy: "Code that thinks, systems that scale, impact that matters"
-};
+    Q --> O[Server-Derived Analytics]
+    O --> RESP([Dashboards · Excel · PDF])
 ```
 
----
-
-## 🌟 Open Source & Community
-
-- 🤝 Contributing to LangChain community projects
-- 📝 Writing about AI/LLM development on [Dev.to](https://dev.to/priyank_agrawal)
-- 💡 Sharing prompt engineering patterns & best practices
-- 🔨 Building AI/LLM utility tools and frameworks
+**Principles I build by:** typed tools over free-form generation · compute answers server-side, let the model orchestrate · sub-agents for autonomous follow-through · RBAC and auditability from day one.
 
 ---
 
-## 📫 Let's Connect
+## Selected Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[NextRole](https://github.com/Priyank032/ai-career-copilot)** | 7-agent conversational job-search & career-coaching system with intent classification, multi-turn context management, and SSE streaming (90%+ routing accuracy) | `FastAPI` · `Next.js` · `LangChain` · `Groq LLaMA 3.3` · `Supabase` |
+| **ESG Analytics Chatbot** | RAG assistant converting natural language into MongoDB aggregation pipelines at 95%+ accuracy | `Node.js` · `LangChain` · `MongoDB` · `RAG` |
+| **Speedbox** | Serverless logistics platform — microservices on Lambda, OAuth 2.0, auto-scaling to 10k+ concurrent requests, 99.9% uptime | `AWS Lambda` · `Cognito` · `SNS` · `PostgreSQL` |
+
+---
+
+## Tech Stack
+
+<details open>
+<summary><b>AI / LLM</b></summary>
+<br>
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![AWS Bedrock](https://img.shields.io/badge/AWS%20Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+
+**Focus:** Multi-Agent Orchestration · Typed Tool-Calling · RAG · Intent Routing · Structured Extraction · Prompt Engineering
+
+</details>
+
+<details>
+<summary><b>Backend & APIs</b></summary>
+<br>
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white)
+![Express](https://img.shields.io/badge/Express-404D59?style=flat-square&logo=express&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>Data & Infra</b></summary>
+<br>
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DD0031?style=flat-square&logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+
+**AWS:** Lambda · ECS Fargate · Bedrock · SNS · SES · Cognito &nbsp;|&nbsp; **CI/CD:** GitHub Actions
+
+</details>
+
+<details>
+<summary><b>Frontend & Realtime</b></summary>
+<br>
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
+
+</details>
+
+---
+
+## Experience
+
+**Software Engineer — AI/LLM** · Planet Sustech Private Limited · *Aug 2024 – Present*
+Built KarbonIQ and a suite of production ESG agents on AWS Bedrock + LangGraph. Owned agent architecture end to end — from tool-calling design and structured extraction to RBAC and deployment — and mentor a team of interns.
+
+**Associate Software Developer** · Antino Labs Private Limited · *Feb 2023 – Aug 2024*
+Engineered a Resource Management System for 400+ employees (Node.js, PostgreSQL, real-time analytics) and a social platform with AI-driven matching and Socket.IO/Agora realtime — 10k+ downloads in 4 months, +30% engagement.
+
+---
+
+## GitHub
 
 <div align="center">
 
-**💼 Open to opportunities in:** AI/ML Engineering • LLM Engineering • Full-Stack Development (AI Focus)
-
-**📧 Email:** priyankagrawal76660@gmail.com  
-**📍 Location:** Indore, Madhya Pradesh, India  
-**🎓 Education:** B.Tech in Computer Science (CGPA: 8.2/10)
-
----
-
-*"Building intelligent systems that think, learn, and automate"*
-
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=Priyank032&label=Profile%20Views&countColor=%23263759&style=flat)](https://visitorbadge.io/status?path=Priyank032)
+![Stats](https://github-readme-stats.vercel.app/api?username=Priyank032&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide=stars)
 
 </div>
 
 ---
 
-<!-- Proudly created with passion for AI/LLM 🤖 -->
+<p align="center">
+  <b>Open to:</b> AI/LLM Engineering · Agentic Systems · Full-Stack (AI focus)<br>
+  📍 Bhopal, Madhya Pradesh, India &nbsp;·&nbsp; 🎓 B.Tech CSE, IPS College of Technology & Management (CGPA 8.2)
+</p>
