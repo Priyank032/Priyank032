@@ -156,5 +156,5 @@ Engineered a Resource Management System for 400+ employees (Node.js, PostgreSQL,
 
 <p align="center">
   <b>Open to:</b> AI/LLM Engineering · Agentic Systems · Full-Stack (AI focus)<br>
-  📍 Bhopal, Madhya Pradesh, India &nbsp;·&nbsp; 🎓 B.Tech CSE, IPS College of Technology & Management (CGPA 8.2)
+  📍 Gwalior, Madhya Pradesh, India &nbsp;·&nbsp; 🎓 B.Tech CSE, IPS College of Technology & Management (CGPA 8.2)
 </p>
