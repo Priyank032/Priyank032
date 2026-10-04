@@ -71,9 +71,9 @@ flowchart TD
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[NextRole](https://github.com/Priyank032/ai-career-copilot)** | 7-agent conversational job-search & career-coaching system with intent classification, multi-turn context management, and SSE streaming (90%+ routing accuracy) | `FastAPI` · `Next.js` · `LangChain` · `Groq LLaMA 3.3` · `Supabase` |
+| **[neverempty](https://github.com/Priyank032/neverempty)**<br>[![PyPI](https://img.shields.io/pypi/v/neverempty?style=flat-square)](https://pypi.org/project/neverempty/) | Open-source Python eval harness that measures how often a tool-calling agent tells a user "no results" when a tool actually failed. Tools return `Ok` / `Empty` / `Err` instead of a bare list, faults are injected on purpose, and a CI gate fails the build when the misreport rate rises. [Case study](https://www.priyankagrawal.in/case-studies/neverempty) | `Python` · `pydantic` · `pytest` · `GitHub Actions` |
+| **[NextRole](https://github.com/Priyank032/ai-career-copilot)** | 7-agent conversational job-search & career-coaching system with intent classification, multi-turn context management, and SSE streaming (90%+ routing accuracy) | `FastAPI` · `Next.js` · `LangChain` · `OpenAI` · `Supabase` |
 | **ESG Analytics Chatbot** | RAG assistant converting natural language into MongoDB aggregation pipelines at 95%+ accuracy | `Node.js` · `LangChain` · `MongoDB` · `RAG` |
-| **Speedbox** | Serverless logistics platform — microservices on Lambda, OAuth 2.0, auto-scaling to 10k+ concurrent requests, 99.9% uptime | `AWS Lambda` · `Cognito` · `SNS` · `PostgreSQL` |
 
 ---
 
